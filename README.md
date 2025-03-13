@@ -2,3 +2,8 @@
 
 ---
 
+# Project SetUp Commands
+
+- `go mod init`
+
+---
