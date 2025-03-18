@@ -1,11 +1,13 @@
 package main
 
 import (
-	"fmt"
+	"log"
+
+	"github.com/arijit-itobuz/go-rest/src/config"
 )
 
 func main() {
 
-	fmt.Print("Hello, World!")
+	log.Printf("AppConfig: %+v\n", config.AppConfig)
 
 }
