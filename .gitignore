@@ -5,6 +5,7 @@
 /dist
 /debug
 /log
+/vendor
 
 .env*
 !.env.sample

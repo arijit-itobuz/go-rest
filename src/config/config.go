@@ -17,11 +17,12 @@ var AppConfig Config
 func init() {
 	err := godotenv.Load("./.env")
 	if err != nil {
-		log.Fatalf("[Error]: Failed to load .env file")
+		log.Fatal("[Error]: Failed to load .env file")
 	}
 
 	AppConfig = Config{
 		APP_ENV: os.Getenv("APP_ENV"),
 		PORT:    os.Getenv("PORT"),
 	}
+
 }

@@ -8,6 +8,6 @@ import (
 
 func main() {
 
-	log.Printf("AppConfig: %+v\n", config.AppConfig)
+	log.Printf("[main]: AppConfig: %+v\n", config.AppConfig)
 
 }

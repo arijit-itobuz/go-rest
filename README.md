@@ -2,11 +2,20 @@
 
 ---
 
-# Project SetUp Commands
+# Commands
 
 - `go mod init`
 - `go mod init github.com/arijit-itobuz/go-rest`
-- `go run ./main.go`
-- `go build -o main .`
+
+---
+
+- `go get <package>`
+- `go mod tidy`
+- `go mod vendor`
+
+---
+
+- `go run ./src/main.go`
+- `go build -o main ./src/main.go`
 
 ---
